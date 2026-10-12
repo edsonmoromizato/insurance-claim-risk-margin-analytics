@@ -34,7 +34,7 @@ The raw dataset of 1,338 records was ingested into SQLite (`insurance_analytics.
 ---
 
 ## 4. Repository & File Structure
-```markdown
+
 ```text
 insurance-claim-risk-margin-analytics/
 ├── images/
@@ -46,7 +46,7 @@ insurance-claim-risk-margin-analytics/
 ├── insurance.csv
 └── README.md
 ```
-```
+
 
 
 
