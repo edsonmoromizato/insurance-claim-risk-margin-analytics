@@ -88,11 +88,11 @@ SELECT
 FROM RankedClaims
 GROUP BY deciles
 
--- STEP 2.3: PARETO SHARE & CONCENTRATION CALCULATION
+-- STEP 2.2: PARETO SHARE & CONCENTRATION CALCULATION
 -- Objective: Compute percentage contribution of each decile against global portfolio claims.
 ROUND(SUM(charges) * 100.0 / (SELECT SUM(charges) FROM insurance_claims), 2) AS pct_claims_share
 
--- STEP 2.4: SEQUENTIAL ORDERING & EXECUTIVE REPORTING
+-- STEP 2.3: SEQUENTIAL ORDERING & EXECUTIVE REPORTING
 -- Objective: Display deciles 1 to 10 in order to visualize loss concentration for risk strategy.
 WITH RankedClaims AS (
     SELECT

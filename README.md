@@ -31,6 +31,22 @@ The raw dataset of 1,338 records was ingested into SQLite (`insurance_analytics.
 * **Underwriting Margin Transformation**:
   * Applying a simulated **25% premium surcharge** exclusively to high-risk policyholders generates direct, incremental underwriting revenue, expanding operating margins while protecting low-risk policyholder retention.
 
+
+## 📊 SQL Query Results & Outputs
+
+### Portfolio Baseline Metrics (`Query 1.3`)
+Overview of core KPIs and baseline claim metrics across the entire policy portfolio.
+![Portfolio Baseline Metrics](images/query1.3_portfolio_baseline_metrics.png)
+
+### Multifactor Risk Profiling (`Query 1.5`)
+Advanced risk profiling intersecting multiple variables (smoking status, BMI tiers, and claim cost distributions).
+![Multifactor Risk Profiling](images/query1.5_multifactor_risk_profiling.png)
+
+### Underwriting Margin Simulation (`Query 3`)
+Financial simulation results demonstrating the margin impact of a 25% targeted premium surcharge on the high-risk cohort.
+![Underwriting Margin Simulation](images/query3_underwriting_margin_simulation.png)
+
+
 ---
 
 ## 4. Repository & File Structure
