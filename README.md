@@ -57,10 +57,11 @@ insurance-claim-risk-margin-analytics/
 ### 1. Executive Overview & Risk Profiling
 This page highlights high-risk portfolio segments, cost distribution patterns, and severe claim drivers associated with smoking and elevated BMI thresholds.
 
-![Executive Overview](./images/executive_overview.png)
+![Executive Overview](images/executive_overview.png)
+
 
 
 ### 2. Underwriting Margin Optimization & Surcharge Simulation
 This page simulates the financial impact of applying a targeted 25% premium surcharge on the high-risk cohort (Smoker + BMI $\ge$ 30), illustrating regional revenue expansion without broad policyholder friction.
 
-![Margin Optimization](./images/margin_optimization.png)
+![Margin Optimization](images/margin_optimization.png)
